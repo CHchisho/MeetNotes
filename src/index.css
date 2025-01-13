@@ -1,0 +1,45 @@
+body {
+    --white: #fafafa;
+    --black-1: #282c34;
+    --black-2: #1e1e1e;
+    --grey-1: #a6adba;
+    --purple-1: #827BFD;
+    --purple-3: #9893fc;
+    --red-1: #f08080;
+    --pink-1: #F77291;
+    --yellow-1: #FFA654;
+    --green-1: #43b949;
+    --blue-1: #4797F1;
+    margin: 0;
+    font-family: Inter, ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    /*font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',*/
+    /*  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',*/
+    /*  sans-serif;*/
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+}
+#root {
+    height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+}
+/*h1, h2, h3 {*/
+/*    font-family: "Poppins","system-ui",sans-serif;*/
+/*    font-weight: 600;*/
+/*}*/
+button, input, select, textarea {
+    background-color: transparent;
+    border-style: none;
+    outline: none;
+}

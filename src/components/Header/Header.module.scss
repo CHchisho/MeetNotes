@@ -1,0 +1,95 @@
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: white;
+  box-shadow: 0 0 #0000,0 0 #0000, 0 0 #0000, 0 1px 3px 0 rgba(0, 0, 0, .1), 0 1px 2px -1px rgba(0, 0, 0, .1);
+  padding: 16px;
+}
+
+.first_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+
+  &>*{font-family: "Poppins","system-ui",sans-serif;}
+}
+
+
+.nav_links {
+  &>a{color: rgb(107 114 128);
+  text-decoration: none;
+  }
+  display: flex;
+  //color: rgb(107 114 128);
+  font-weight: 500;
+  gap: 48px;
+}
+
+.nav_buttons {
+  display: flex;
+  gap: 12px;
+}
+.menu_button {
+  display: none;
+  font-size: 14px;
+  padding: 8px 16px;
+  border: 1px solid rgb(209 213 219);
+  color: rgb(17 24 39);
+  gap: 4px;
+  background-color: transparent;
+  &>i {height: 23px;}
+}
+
+
+
+.drop_menu {
+  display: none;
+  flex-direction: column;
+  padding: 16px;
+  gap: 16px;
+  font-size: 25px;
+  &>a{
+    color: rgb(55 65 81);
+    font-weight: 600;
+    text-decoration: none;
+    transition: all .4s ease;
+  }
+  overflow: hidden;
+  transition: all .4s ease;
+  //animation: fadeIn 1s ease forwards;
+
+  padding-block: 0px;
+  max-height: 0px;
+  &>* {opacity: 0;}
+}
+.drop_menu.visible {
+  padding-top: 16px;
+  padding-bottom: 48px;
+  margin-top: 16px;
+  max-height: 1000px;
+  &>* {opacity: 1;}
+}
+
+@media (max-width: 1024px) {
+  .nav_buttons {display: none;}
+  .nav_links {display: none;}
+  .menu_button {display: flex;}
+  .drop_menu {display: flex;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

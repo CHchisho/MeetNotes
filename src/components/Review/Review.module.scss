@@ -1,0 +1,40 @@
+
+
+.block {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  max-width: 600px;
+  width: 100%;
+  margin: auto;
+  margin-top: 64px;
+}
+
+.avatar {
+  width: 60px;
+  min-width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: grey;
+}
+.black {
+  color: rgb(55 65 81);
+}
+.grey {
+  color: rgb(156 163 175);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
