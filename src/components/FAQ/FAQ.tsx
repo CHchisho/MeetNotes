@@ -54,7 +54,7 @@ function FAQ() {
   ]
   
   return (
-    <div className={s.block}>
+    <div className={s.block} id={"faq"}>
       <h2 className={s.block_header}>F.A.Q</h2>
       <div className={s.info_container}>
         {faqData.map((item, index) => (

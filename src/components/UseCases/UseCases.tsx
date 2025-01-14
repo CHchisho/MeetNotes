@@ -39,7 +39,7 @@ function UseCases() {
 
   
   return (
-    <div className={s.block}>
+    <div className={s.block} id={"use-cases"}>
       <div className={s.block_header}>
         <h2 className={s.header_grey}>Use cases</h2>
         <h2 className={s.header_black}>Here is how Talknotes can help you</h2>

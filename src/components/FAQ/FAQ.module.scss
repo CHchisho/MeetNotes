@@ -69,9 +69,11 @@
   overflow: hidden;
   transition: all 0.2s ease;
   color: rgb(107 114 128);
+  //display: none;
 }
 
 .faq_element.open .faq_answer {
+  //display: flex;
   max-height: 1000px;
   margin-top: 8px;
   opacity: 1;

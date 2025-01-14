@@ -33,7 +33,7 @@ function Footer() {
       <div className={s.footer_column}>
         <p className={s.footer_title}>Use cases</p>
         <a>Brainstorming</a>
-        <p className="footer_title">Links</p>
+        <p className={s.footer_title}>Links</p>
         <a>Reviews</a>
         <a>Pricing</a>
         <a>Download</a>
@@ -45,17 +45,15 @@ function Footer() {
         <p className={s.footer_title}>Learn</p>
         <a>How to transcribe voice memos</a>
         <a>Brainstorming AI</a>
-        <p className="footer_title">Free tools</p>
+        <p className={s.footer_title}>Free tools</p>
         <a>Voice memo transcription</a>
         <a>MP3 to text converter</a>
       </div>
       <div className={s.footer_column}>
         <p className={s.footer_title}>Contacts</p>
-        <a>support@talknotes.io</a>
-        <p>Kansakoulukuja 3,
-FI-00100, HELSINKI, FINLAND,
-+1 737 320 3335</p>
-        <p className="footer_title">Legal</p>
+        <p>support@talknotes.io</p>
+        <p style={{opacity:"0.3",fontSize:"12px", color: "rgb(156 163 175)"}}>Kansakoulukuja 3,<br />FI-00100, HELSINKI, FINLAND,<br />+1 737 320 3335</p>
+        <p className={s.footer_title}>Legal</p>
         <a>Privacy Policy</a>
         <a>Terms of Service</a>
         <a>Facebook Disclaimer</a>

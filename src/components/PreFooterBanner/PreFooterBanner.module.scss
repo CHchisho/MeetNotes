@@ -28,6 +28,8 @@
   font-size: 24px;
 }
 
+.image_div {user-select: none;}
+
 @media (width < 768px) {
   .image_div {display: none;}
 }
