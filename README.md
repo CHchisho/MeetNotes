@@ -1,22 +1,17 @@
 
-**To run:**
+## Info
 
-npm install
+Demonstration of layout skills on assignment. The task was to perform the layout of the site https://talknotes.io/
 
-npm run start
+You can compare the result by comparing photos or running on your pc. My version is not running anywhere and just demonstrates my skills.
 
-**Progress:**
+![screencapture.png](public%2Fimages%2Fscreencapture.png)
 
-1. [x] Header
-2. [x] Interactive Demo
-3. [x] Why Choose TalkNotes?
-4. [x] How it works
-5. [x] Use cases
-6. [x] Styles
-7. [x] Share & Export
-8. [x] Pricing
-9. [x] F.A.Q
-10. [x] Pre footer banner
-11. [x] Footer
+### How to run:
+
+`npm install`
+
+`npm run start`
+
 
 
